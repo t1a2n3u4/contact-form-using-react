@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  color: rgb(31, 51, 131);
+  /* padding: 0;     Remove any padding */
+
+}
+
+.logo img {
+  width: 100px; /* Adjust size of logo */
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.navItem {
+  font-size: 1rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: rgb(55, 118, 200);
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #090628;
+  box-shadow: #090628;
+}
+
